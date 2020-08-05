@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (6.5.0)
+  - MJRefresh (3.4.3)
+  - TYAlertController (1.2.0)
+  - TZImagePickerController (3.2.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - IQKeyboardManager (= 6.5.0)
+  - MJRefresh (~> 3.4.3)
+  - TYAlertController
+  - TZImagePickerController (~> 3.2.4)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - IQKeyboardManager
+    - MJRefresh
+    - TYAlertController
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  TYAlertController: c121090edb0bea7426f987da94cdddd81eef4231
+  TZImagePickerController: 1f92968aa0e98a06b9e2eccca8560acc19254257
+
+PODFILE CHECKSUM: 3c9378eabf2ffa694697307529f09902e7fd41cb
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Project_Begin' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Project_Begin
+  
+pod 'AFNetworking', '~> 4.0.1'
+pod 'MJRefresh', '~> 3.4.3'
+pod 'TZImagePickerController', '~> 3.2.4'
+pod 'IQKeyboardManager', ' 6.5.0'
+pod 'TYAlertController'
+
+end
