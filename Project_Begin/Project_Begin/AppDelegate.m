@@ -26,7 +26,7 @@
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:main];
     
     self.window.rootViewController = nav;
-    
+    //aaabbbccc
     
     //调用了这个方法 setBadge才好用
     [[UNUserNotificationCenter currentNotificationCenter] requestAuthorizationWithOptions:UNAuthorizationOptionBadge|UNAuthorizationOptionSound|UNAuthorizationOptionAlert completionHandler:^(BOOL granted, NSError * _Nullable error) {
